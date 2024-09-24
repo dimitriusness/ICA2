@@ -80,45 +80,64 @@
             <li>This code:</li>
         </ul>
 
-        <code>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Formatting</th>
-                        <th>Before</th>
-                        <th>After</th>
-                    </tr>
-                </thead>
+        <pre><code>
+            table
+                thead
+                    tr
+                        th
+                            Formatting
+                            Before
+                            After
+                        /th
+                    /tr
+                /thead
 
-                <tbody>
-                    <tr>
-                        <td>subscript</td>
-                        <td>example 1</td>
-                        <td><sub>example 1</sub></td>
-                    </tr>
+                tbody
+                    tr
+                        td
+                            subscript
+                            example 1
+                            sub
+                                example 1
+                            /sub
+                        /td
+                    /tr
 
-                    <tr>
-                        <td>superscript</td>
-                        <td>example 2</td>
-                        <td><sup>example 2</sup></td>
-                    </tr>
+                    tr
+                        td
+                            superscript
+                            example 2
+                            sub
+                                example 2
+                            /sub
+                        /td
+                    /tr
 
-                    <tr>
-                        <td>strikthrough</td>
-                        <td>example 3</td>
-                        <td><del>example 3</del></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>underline</td>
-                        <td>example 4</td>
-                        <td><ins>example 4</ins></td>
-                    </tr>
-                </tbody>
-            </table>
-    </code>
+                    tr
+                        td
+                            strikethrough
+                            example 3
+                            sub
+                                example 3
+                            /sub
+                        /td
+                    /tr
 
-        <ul>
+                    tr
+                        td
+                            underline
+                            example 4
+                            sub
+                                example 4
+                            /sub
+                        /td
+                    /tr
+                /tbody
+            /table 
+        </code></pre>
+
+        
+        <ul style="padding-top: 25px;">
             <li>Will create this table:</li>
         </ul>
 
